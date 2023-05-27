@@ -1,0 +1,17 @@
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    text-decoration: none;
+    background: rgb(157,4,217);
+    background: linear-gradient(138deg, rgba(157,4,217,1) 0%, rgba(38,188,244,1) 91%);
+    p{
+        font-weight: bold; 
+    }
+    
+    a{
+        text-decoration: none;
+    }
+}

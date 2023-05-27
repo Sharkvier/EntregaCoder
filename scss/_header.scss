@@ -1,0 +1,28 @@
+
+header{
+    grid-area: header;
+    background: rgb(157,4,217);
+    background: linear-gradient(138deg, rgba(157,4,217,1) 0%, rgba(38,188,244,1) 91%);
+    a{
+        text-decoration: none;
+    }
+    h1{
+         font-family: 'Oswald', sans-serif;
+          color: $colorlogo;
+          padding: 10px;
+          margin: 20px;
+          font-weight: bold;
+          text-decoration: none;
+    }
+    .navbar{
+        .fondo{
+            padding: 1rem;
+            background-color: $bgmenu;
+            font-weight: bold;
+            font-family:'Oswald', ;
+
+        }
+
+    }
+}
+

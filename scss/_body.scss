@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(172,191,198);
+    background: linear-gradient(138deg, rgba(172,191,198,1) 0%, rgba(208,219,221,1) 91%); /*intenté agregar el color de fondo en una variable, pero no me dejabá */
+    font-family: 'Inter', sans-serif;
+  }
