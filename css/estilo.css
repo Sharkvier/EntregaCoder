@@ -16,9 +16,6 @@ header {
   background: rgb(157, 4, 217);
   background: linear-gradient(138deg, rgb(157, 4, 217) 0%, rgb(38, 188, 244) 91%);
 }
-header a {
-  text-decoration: none;
-}
 header h1 {
   font-family: "Oswald", sans-serif;
   color: #00ffff;
@@ -27,7 +24,11 @@ header h1 {
   font-weight: bold;
   text-decoration: none;
 }
-header .navbar .fondo {
+header h1 a {
+  text-decoration: none;
+}
+
+.navbar .fondo {
   padding: 1rem;
   background-color: #ffffff;
   font-weight: bold;
@@ -149,7 +150,14 @@ footer a {
 /*media querie para mobile */
 @media screen and (max-width: 600px) {
   .container {
+    font-size: 1rem;
     grid-template-columns: 1fr;
     grid-template-areas: "header" "nav" "section1" "section2" "footer ";
   }
+}
+.section1 {
+  grid-area: section1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }/*# sourceMappingURL=estilo.css.map */
