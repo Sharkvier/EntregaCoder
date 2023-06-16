@@ -7,7 +7,7 @@
     justify-content: center;
 
       .img_inicio{
-       width: 600px;
+       width: 500px;
        margin: 1rem;
        }
 
@@ -16,12 +16,12 @@
        } /*agregué un extend*/
 
       .img_terapias{
-       width: 700px;
+       width: 500px;
        margin: 1rem;
        }
 
       .img_hablemos{
-       width: 900px;
+       width: 500px;
        margin: 1rem;
        }
 
@@ -80,7 +80,15 @@ div{
  line-height: 1.7;
  text-align: left;
  border-color: white;
- background: rgb(167, 96, 234);
-
+ background: rgb(157,4,217);
+ background: linear-gradient(138deg, rgba(157,4,217,1) 0%, rgba(38,188,244,1) 91%);
       }
 }
+
+.video{
+  text-align: center;
+  padding: 20px;
+
+}
+
+
