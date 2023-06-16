@@ -157,6 +157,7 @@ h2{
     width: 100%;
   }
 }
+
  /*media querie para movíl */
  @media screen and (max-width:600px){
   .container{
